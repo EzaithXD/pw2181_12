@@ -1,0 +1,75 @@
+var a , b=6;
+undefined
+b
+6
+a
+undefined
+a=5
+5
+var c = a+ b;
+undefined
+c
+11
+alert(' uma delicia');
+undefined
+var respuesta=("Dame un numero",0);
+undefined
+var respuesta=prom("Dame un numero",0);
+VM176:1 Uncaught ReferenceError: prom is not defined
+    at <anonymous>:1:15
+(anonymous) @ VM176:1
+var respuesta=promt("Dame un numero",0);
+VM179:1 Uncaught ReferenceError: promt is not defined
+    at <anonymous>:1:15
+(anonymous) @ VM179:1
+var respuesta = prompt("dame un numero",0);
+undefined
+respuesta
+"432432"
+function suma (a,b){return a + b;}
+
+undefined
+suma
+ƒ suma(a,b){return a + b;}
+var sumaNumeros=function(a,b){return a + b;}
+                              
+undefined
+sumaNumeros
+ƒ (a,b){return a + b;}
+suma(6,7)
+13
+docu
+VM229:1 Uncaught ReferenceError: docu is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM229:1
+document
+#document
+document.write("hola");
+undefined
+docu
+VM244:1 Uncaught ReferenceError: docu is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM244:1
+document.write("<article id='demo'></article>");
+undefined
+docu
+VM257:1 Uncaught ReferenceError: docu is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM257:1
+document.getElementById('demo').innerHTML="mi article";
+"mi article"
+docu
+VM271:1 Uncaught ReferenceError: docu is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM271:1
+document.write("<input type='text' id='txt'>");
+undefined
+document.getElementById('txt').value=81;
+81
+console.log("escribimos en la consola");
+VM296:1 escribimos en la consola
+undefined
+document.write("<button>Da Clic</button>");
+undefined
+document.write("<button onclick=alert('clic')>Da clic</button>)");
+undefined
