@@ -1,0 +1,45 @@
+body{
+	font-size: 16px;
+	margin: 0 auto;
+	width: 1632px;
+	background: white;
+}
+
+
+
+#logoHeader{
+	width: 269px;
+	height: 73px;
+	margin: 10px 0px 0px 23px;
+}
+#logoHeader img{
+	width: 120px;
+	height: 120px;
+}
+
+
+#Principal{
+font-size: 3em;
+margin-left: 200px;
+margin-bottom: : 200px;
+
+
+}
+
+#artNav{	
+	display: inline-flex;
+}
+header article nav{
+	width: 710px;
+	height: 64px;	
+}
+header article nav ul li{
+	list-style: none;
+	margin-bottom:  100px;
+	margin-left:  30px;
+	font-weight: bold;
+	font-size: 1.1em;
+}
+header article nav ul{
+	display: inline-flex;
+}
