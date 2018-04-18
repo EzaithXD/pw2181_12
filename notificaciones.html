@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title> Notificaciones HTML5</title>
+</head>
+<body>
+	<button onclick="enviarNotificacion();">
+		Notificaciones
+	</button>
+<script>
+	function enviarNotificacion(){
+//comprobar que el navegador soporta notfificaciones
+if (("notification" in window )) {
+alert("no soporta notificaciones")
+
+}else if(Notification.permission ==="denied" ||Notification.permission=== "default" ){
+
+	Notification.requestPermission(function(permission){
+if (permission==="granted") {
+var notification = new Notification("Bienvenido a las notficaciones de pw2181_12")
+
+
+
+}
+
+
+	});
+}else if(Notification.permission==="granted"){
+var notificacion= new Notification("Segunda Notificacion")
+
+
+}
+
+
+
+	}
+
+</script>
+
+
+
+</body>
+</html>
